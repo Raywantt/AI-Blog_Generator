@@ -1,4 +1,4 @@
-## Summary  
+## Blog Generator Using GenAI 
 This project provides a command-line tool (`blog.py`) that uses the Hugging Face Inference API to generate ~200-word, richly detailed blog paragraphs on any user-specified topic, leveraging the instruction-tuned `google/flan-t5-large` model for high-quality, non-repetitive text generation :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}. It loads your HF API key securely from a `.env` file via `python-dotenv`, constructs a customizable prompt, issues an HTTP POST with `requests`, and displays the generated text in an interactive CLI loop :contentReference[oaicite:2]{index=2}.
 
 ## Features  
